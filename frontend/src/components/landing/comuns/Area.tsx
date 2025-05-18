@@ -15,6 +15,9 @@ export default function Area() {
                 
                      </MenuLateral>
                     <Conteudo className="">
+                        <div className="text-2xl ml-36 mt-24">
+                            Acompanhe o Andamento deste Projeto...
+                        </div>
 
                     </Conteudo>
                 </div>
