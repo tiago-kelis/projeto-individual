@@ -14,10 +14,8 @@ export default function Area() {
                     <MenuLateral>
                 
                      </MenuLateral>
-                    <Conteudo>
-                       <div className="text-2xl justify-center items-center ml-56 mt-28">
-                         Aconpanhe a Evolução deste Projeto...
-                       </div>
+                    <Conteudo className="">
+
                     </Conteudo>
                 </div>
             <Footer>
