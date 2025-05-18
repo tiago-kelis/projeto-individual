@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export interface ConteudoProps {
     children?: any
-    className: string
+    className?: string
 }
 
 export default function Conteudo(props: ConteudoProps) {
