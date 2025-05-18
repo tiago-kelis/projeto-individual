@@ -1,0 +1,9 @@
+{
+   "material-icon-theme.folders.associations": {
+     "comuns": "interface",
+     "content": "interface",
+     "footer": "interface",
+     "header": "interface",
+     "dashboard": "interface"
+   }
+}

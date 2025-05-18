@@ -1,0 +1,97 @@
+
+# Dependências
+node_modules/
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+# Build e output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+coverage/
+*.tsbuildinfo
+# Arquivos de ambiente
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+.env.local
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+# Específicos do Prisma
+prisma/migrations/
+prisma/.env
+# Arquivos temporários
+tmp/
+temp/
+.temp/
+.tmp/
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+# IDE e editores
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+# Específicos do Next.js
+.vercel
+.turbo
+next-env.d.ts
+# Específicos do TypeScript
+*.tsbuildinfo
+# Específicos do frontend
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+# Específicos do backend
+backend/dist/
+backend/uploads/
+# Específicos do core
+core/dist/
+# Arquivos de teste
+coverage/
+.nyc_output/
+# Lock files (opcional)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# Outros
+.history/
+.netlify
+storybook-static/
+.env.local.example
+
