@@ -1,7 +1,6 @@
 import Conteudo from "../content/Conteudo";
 import MenuLateral from "../dashboard/MenuLateral";
-import Footer from "../footer/Footer";
-import Menu from "../header/Menu";
+
 
 
 export default function Area() {
@@ -15,15 +14,12 @@ export default function Area() {
                 
                      </MenuLateral>
                     <Conteudo className="">
-                        <div className="text-2xl ml-36 mt-24">
+                        <div className="text-3xl ml-36 mt-24 ">
                             Acompanhe o Andamento deste Projeto...
                         </div>
-
                     </Conteudo>
                 </div>
-            <Footer>
                 
-            </Footer>           
            
         </div>
     )
