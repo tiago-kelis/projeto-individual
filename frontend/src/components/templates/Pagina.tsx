@@ -1,12 +1,20 @@
+
 import Area from "../landing/comuns/Area";
+import Footer from "../landing/footer/Footer";
+import Menu from "../landing/header/Menu";
+
 
 
 export default function Pagina() {
     return (
        <div>
-           <Area>
+           <Menu />
+
+            <Area >
+            </Area>
             
-           </Area>       
+            <Footer>                
+            </Footer>          
 
        </div>
     )

@@ -1,28 +1,22 @@
 import Conteudo from "../content/Conteudo";
 import MenuLateral from "../dashboard/MenuLateral";
-import Footer from "../footer/Footer";
-import Menu from "../header/Menu";
+
 
 
 export default function Area() {
     return (
         <div className="flex flex-col h-screen">
-            <Menu>
+              <div className="flex">
+                    <MenuLateral/>                                                
+                     
+                    <Conteudo className="flex justify-center items-center text-2xl text-green-700 ">
+                        
+                         Acompanhe o Andamento deste Projeto...
+                        
 
-            </Menu>
-                <div className="flex">
-                    <MenuLateral>
-                
-                     </MenuLateral>
-                    <Conteudo className="">
-                        <div className="text-3xl ml-36 mt-24 ">
-                            Acompanhe o Andamento deste Projeto...
-                        </div>
                     </Conteudo>
                 </div>
-            <Footer>
                 
-            </Footer>           
            
         </div>
     )
